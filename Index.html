@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sito Scommesse Minimal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Scommesse Calcio</h1>
+  </header>
+  
+  <main>
+    <!-- Pulsante Quote -->
+    <section class="quote-section">
+      <h2>Quote</h2>
+      <button id="quote-btn">Mostra Quote</button>
+      <div id="quote-display" class="hidden">
+        <p>Squadra A vs Squadra B: 2.5 - 3.0 - 2.8</p>
+      </div>
+    </section>
+
+    <!-- Pulsante Deposito -->
+    <section class="deposit-section">
+      <h2>Deposito</h2>
+      <button id="deposit-btn">Deposita</button>
+      <div id="deposit-form" class="hidden">
+        <input type="number" id="deposit-amount" placeholder="Inserisci importo">
+        <button id="confirm-deposit">Conferma</button>
+      </div>
+    </section>
+
+    <!-- Pulsante Prelievo -->
+    <section class="withdraw-section">
+      <h2>Prelievo</h2>
+      <button id="withdraw-btn">Preleva</button>
+      <div id="withdraw-form" class="hidden">
+        <input type="number" id="withdraw-amount" placeholder="Inserisci importo">
+        <button id="confirm-withdraw">Conferma</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Scommesse Calcio</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
